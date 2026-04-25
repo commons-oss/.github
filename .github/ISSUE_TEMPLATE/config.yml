@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/orgs/commons-oss/discussions
+    about: For questions, ideas, and show-and-tell — please use Discussions instead of issues.
+  - name: Security vulnerability
+    url: https://github.com/commons-oss/.github/security/advisories/new
+    about: Report security issues privately via GitHub Security Advisories — never as a public issue.

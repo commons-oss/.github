@@ -1,0 +1,54 @@
+name: Feature request
+description: Suggest a new feature or improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The maintainers are conservative about scope — please explain the use case clearly so we can evaluate whether it fits the project.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation that prompted this request. Real-world use cases beat hypothetical ones.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work? Sketches, mockups, and API examples welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What else could solve this? Why is your proposal better?
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Who benefits?
+      multiple: true
+      options:
+        - Sports clubs
+        - Fire departments / emergency services
+        - Hobby clubs
+        - Charities and nonprofits
+        - Funders / accountants (reporting use cases)
+        - Maintainers / contributors (developer experience)
+        - Other (describe in proposal)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I have read and agree to follow the [Code of Conduct](https://github.com/commons-oss/.github/blob/main/CODE_OF_CONDUCT.md).
+          required: true
