@@ -21,7 +21,7 @@
 
 ## Checklist
 
-- [ ] I have signed the [CLA](https://github.com/commons-oss/.github/blob/main/CONTRIBUTING.md#contributor-license-agreement-cla) (the bot will prompt on first PR).
+- [ ] I have signed (or will sign when the bot prompts) the [CLA](https://github.com/commons-oss/.github/blob/main/CLA.md).
 - [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/).
 - [ ] Documentation updated if behavior or API changed.
 - [ ] No secrets, credentials, or proprietary code committed.

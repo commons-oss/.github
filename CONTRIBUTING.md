@@ -10,7 +10,9 @@ Thanks for your interest in Commons OSS.
 
 ## Contributor License Agreement (CLA)
 
-All contributions require signing our CLA. The CLA bot will prompt you on your first pull request. This lets us re-license contributions under the commercial license (proceeds fund maintenance) while keeping everything AGPL-3.0-or-later for the community.
+All contributions require signing our [CLA](./CLA.md). On your first pull request, the [CLA Assistant](https://github.com/apps/cla-assistant) bot will comment with a link and a one-line phrase to reply with — that reply counts as your signature. Subsequent PRs are not re-prompted.
+
+The CLA grants Commons OSS the right to re-license contributions under the commercial license (proceeds fund maintenance), while everything stays AGPL-3.0-or-later for the community.
 
 If you can't or don't want to sign, your contribution can't be merged — but we appreciate the time regardless.
 
